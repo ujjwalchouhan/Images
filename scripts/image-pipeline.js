@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Image Pipeline — Optimize (AVIF + WebP) → Output to folder → Manifest
+ * Image Pipeline — Optimize (WebP only) → Output to folder → Manifest (one URL per image)
  * GitHub-based: push Images/optimized to GitHub, use jsDelivr or raw URL
  */
 
@@ -104,7 +104,7 @@ function scanRawImages(dir, files = []) {
 }
 
 // ═══════════════════════════════════════════════════════════════════════════════
-// Step 2 — Optimize (sharp: AVIF + WebP)
+// Step 2 — Optimize (sharp: WebP only, one output per image)
 // ═══════════════════════════════════════════════════════════════════════════════
 async function optimizeImage(rawPath) {
   const key = getKeyFromPath(rawPath, IMAGES_DIR);
@@ -113,7 +113,6 @@ async function optimizeImage(rawPath) {
   ensureDir(outDir);
 
   const baseName = join(outDir, basename(rawPath, extname(rawPath)));
-  const finalAvif = baseName + '.avif';
   const finalWebp = baseName + '.webp';
 
   const meta = await sharp(rawPath).metadata();
@@ -122,22 +121,14 @@ async function optimizeImage(rawPath) {
   await sharp(rawPath)
     .rotate()
     .withMetadata({ strip: true })
-    .avif({ quality: 50, effort: 6 })
-    .toFile(finalAvif);
-
-  await sharp(rawPath)
-    .rotate()
-    .withMetadata({ strip: true })
     .webp({ quality: 75, effort: 6 })
     .toFile(finalWebp);
 
-  const relAvif = relative(OPTIMIZED_DIR, finalAvif);
   const relWebp = relative(OPTIMIZED_DIR, finalWebp);
 
   return {
     key,
-    avif: toUrl(relAvif),
-    webp: toUrl(relWebp),
+    url: toUrl(relWebp),
   };
 }
 
@@ -197,9 +188,18 @@ async function run() {
   );
 
   const valid = updates.filter(Boolean);
-  const newManifest = { ...manifest };
+  // Migrate old manifest (avif/webp) to single URL per image
+  const newManifest = {};
+  const placeholderBase = 'https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized';
+  for (const [k, v] of Object.entries(manifest)) {
+    let url = typeof v === 'string' ? v : (v.webp || v.avif || v.url || '');
+    if (IMAGES_BASE_URL && url.startsWith(placeholderBase)) {
+      url = IMAGES_BASE_URL + url.slice(placeholderBase.length);
+    }
+    newManifest[k] = url;
+  }
   for (const u of valid) {
-    newManifest[u.key] = { avif: u.avif, webp: u.webp };
+    newManifest[u.key] = u.url;
   }
   const sorted = Object.fromEntries(
     Object.entries(newManifest).sort(([a], [b]) => a.localeCompare(b))

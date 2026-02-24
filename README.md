@@ -1,6 +1,6 @@
 # Image Pipeline (GitHub-based)
 
-Optimize images (AVIF + WebP) → output to folder → manifest. Push to GitHub and serve via jsDelivr or raw URLs.
+Optimize images (WebP) → output to folder → manifest (one URL per image). Push to GitHub and serve via jsDelivr or raw URLs.
 
 ## Quick start
 
@@ -21,7 +21,7 @@ npm run images:sync
 img-handler/
 ├── Images/
 │   ├── (your folders)/   ← Put images here (jpg, jpeg, png, webp)
-│   ├── optimized/        ← Output: AVIF + WebP (commit & push to GitHub)
+│   ├── optimized/        ← Output: WebP only (commit & push to GitHub)
 │   ├── image-manifest.json   ← Generated manifest with URLs
 │   └── .image-cache.json     ← Hash cache (gitignored)
 ├── scripts/
@@ -57,24 +57,18 @@ REACT_MANIFEST_OUTPUT=../portfolio-website/src/data/image-manifest.json
 ## Usage in React
 
 ```js
-import { getImage } from './utils/getImage';
+import manifest from './data/image-manifest.json';
 
 function Hero() {
-  const { avif, webp } = getImage('Aucto_image1');
-  return (
-    <picture>
-      <source srcSet={avif} type="image/avif" />
-      <source srcSet={webp} type="image/webp" />
-      <img src={webp} alt="Hero" />
-    </picture>
-  );
+  const url = manifest['Aucto_image1']; // single URL per image (WebP)
+  return <img src={url} alt="Hero" />;
 }
 ```
 
 ## Features
 
 - Recursive scan of `Images/` (all subfolders, except optimized)
-- Sharp optimization: AVIF (q50) + WebP (q75), metadata stripped
+- Sharp optimization: WebP (q75) only, one file per image, metadata stripped
 - No external service — store images in GitHub
 - jsDelivr CDN for fast delivery (free)
 - Hash-based cache to skip unchanged images
