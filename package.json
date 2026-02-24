@@ -1,0 +1,15 @@
+{
+  "name": "img-handler",
+  "version": "1.0.0",
+  "description": "Automated image pipeline: compress, upload to CDN, generate manifest",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "images:sync": "node scripts/image-pipeline.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "p-limit": "^6.1.0",
+    "sharp": "^0.33.5"
+  }
+}
