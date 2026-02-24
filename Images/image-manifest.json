@@ -1,0 +1,234 @@
+{
+  "Aucto_image1": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Aucto/image1.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Aucto/image1.webp"
+  },
+  "Aucto_image2": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Aucto/image2.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Aucto/image2.webp"
+  },
+  "Aucto_image3": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Aucto/image3.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Aucto/image3.webp"
+  },
+  "Aucto_image4": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Aucto/image4.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Aucto/image4.webp"
+  },
+  "Aucto_main": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Aucto/main.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Aucto/main.webp"
+  },
+  "Canbiz_image1": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Canbiz/image1.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Canbiz/image1.webp"
+  },
+  "Canbiz_image2": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Canbiz/image2.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Canbiz/image2.webp"
+  },
+  "Canbiz_image3": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Canbiz/image3.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Canbiz/image3.webp"
+  },
+  "Canbiz_image4": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Canbiz/image4.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Canbiz/image4.webp"
+  },
+  "Canbiz_image5": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Canbiz/image5.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Canbiz/image5.webp"
+  },
+  "Canbiz_image6": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Canbiz/image6.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Canbiz/image6.webp"
+  },
+  "Canbiz_image7": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Canbiz/image7.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Canbiz/image7.webp"
+  },
+  "Canbiz_main": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Canbiz/main.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Canbiz/main.webp"
+  },
+  "Dingg_image1": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Dingg/image1.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Dingg/image1.webp"
+  },
+  "Dingg_image2": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Dingg/image2.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Dingg/image2.webp"
+  },
+  "Dingg_image3": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Dingg/image3.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Dingg/image3.webp"
+  },
+  "Dingg_image4": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Dingg/image4.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Dingg/image4.webp"
+  },
+  "Dingg_main": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Dingg/main.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Dingg/main.webp"
+  },
+  "Elegancia_image1": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elegancia/image1.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elegancia/image1.webp"
+  },
+  "Elegancia_image2": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elegancia/image2.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elegancia/image2.webp"
+  },
+  "Elegancia_main": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elegancia/main.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elegancia/main.webp"
+  },
+  "Elriad_image1": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elriad/image1.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elriad/image1.webp"
+  },
+  "Elriad_image2": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elriad/image2.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elriad/image2.webp"
+  },
+  "Elriad_image3": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elriad/image3.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elriad/image3.webp"
+  },
+  "Elriad_image4": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elriad/image4.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elriad/image4.webp"
+  },
+  "Elriad_image5": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elriad/image5.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elriad/image5.webp"
+  },
+  "Elriad_image6": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elriad/image6.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elriad/image6.webp"
+  },
+  "Elriad_image7": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elriad/image7.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elriad/image7.webp"
+  },
+  "Elriad_image8": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elriad/image8.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elriad/image8.webp"
+  },
+  "Elriad_image9": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elriad/image9.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elriad/image9.webp"
+  },
+  "Elriad_main": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elriad/main.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Elriad/main.webp"
+  },
+  "Kaashin_image1": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Kaashin/image1.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Kaashin/image1.webp"
+  },
+  "Kaashin_image2": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Kaashin/image2.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Kaashin/image2.webp"
+  },
+  "Kaashin_main": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Kaashin/main.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Kaashin/main.webp"
+  },
+  "My Loan_image1": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/My Loan/image1.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/My Loan/image1.webp"
+  },
+  "My Loan_image2": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/My Loan/image2.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/My Loan/image2.webp"
+  },
+  "My Loan_image3": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/My Loan/image3.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/My Loan/image3.webp"
+  },
+  "My Loan_main": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/My Loan/main.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/My Loan/main.webp"
+  },
+  "Netgear_image1": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Netgear/image1.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Netgear/image1.webp"
+  },
+  "Netgear_image2": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Netgear/image2.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Netgear/image2.webp"
+  },
+  "Netgear_image3": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Netgear/image3.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Netgear/image3.webp"
+  },
+  "Netgear_main": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Netgear/main.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Netgear/main.webp"
+  },
+  "Ntradex_image1": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Ntradex/image1.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Ntradex/image1.webp"
+  },
+  "Ntradex_main": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Ntradex/main.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Ntradex/main.webp"
+  },
+  "pepsi_image1": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/pepsi/image1.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/pepsi/image1.webp"
+  },
+  "pepsi_image2": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/pepsi/image2.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/pepsi/image2.webp"
+  },
+  "pepsi_image3": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/pepsi/image3.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/pepsi/image3.webp"
+  },
+  "pepsi_image4": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/pepsi/image4.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/pepsi/image4.webp"
+  },
+  "pepsi_image5": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/pepsi/image5.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/pepsi/image5.webp"
+  },
+  "pepsi_main": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/pepsi/main.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/pepsi/main.webp"
+  },
+  "SCL_image1": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/SCL/image1.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/SCL/image1.webp"
+  },
+  "SCL_image2": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/SCL/image2.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/SCL/image2.webp"
+  },
+  "SCL_main": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/SCL/main.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/SCL/main.webp"
+  },
+  "Together_image1": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Together/image1.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Together/image1.webp"
+  },
+  "Together_image2": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Together/image2.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Together/image2.webp"
+  },
+  "Together_image3": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Together/image3.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Together/image3.webp"
+  },
+  "Together_image4": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Together/image4.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Together/image4.webp"
+  },
+  "Together_main": {
+    "avif": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Together/main.avif",
+    "webp": "https://cdn.jsdelivr.net/gh/USER/REPO@Images/img-handler/Images/optimized/Together/main.webp"
+  }
+}
